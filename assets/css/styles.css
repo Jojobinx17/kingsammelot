@@ -18,21 +18,23 @@ Color Palette:
   	src: url("../fonts/panton/Panton-LightCaps.otf");
 }
 
-html {
-	min-height: 100%;
-}
 body {
+	height: 100vh;
+	padding: 40px 0px 0px 0px;
+
 	background: linear-gradient(to top, #191d26, #531516);	
 	color: white;
 	font-family: 'panton-bold', sans-serif;
 	font-size: 24px;
-	padding: 40px 0px 0px 0px;
+	
+	display: flex;
+	justify-content: center; 
 }
 
 h1 {
 	color: white;
 	font-family: 'panton-bold', sans-serif;
-	font-size: 64px;
+	font-size: 15vh;
 	margin: 15px;
 }
 
@@ -78,7 +80,7 @@ a:active { color: dimgray; }
 }
 
 .top-icon:hover {
-	transition: 0.3s ease;
+	transition: .5s ease;
 	border-bottom: 2px solid white;
 	
 	margin-top: -15px;
