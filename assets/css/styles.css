@@ -24,8 +24,6 @@ Color Palette:
 
 body {
 	background: linear-gradient(to top, #191d26, #531516);	
-	background-repeat: no-repeat;
-	background-size: contain;
 	background-position: center;
 	
 	color: white;
@@ -59,7 +57,7 @@ a:active { color: dimgray; }
 .footer {
 	
 	font-family: 'panton-light', sans-serif;
-	font-size: max(1vw, 10px);
+	font-size: max(1vw, 5px);
 	font-color: #313234;
 	margin: 200px 0px 50px 0px;
 }
