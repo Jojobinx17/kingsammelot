@@ -20,13 +20,13 @@ setTimeout(function() {
 
 
 // Resize body according to window dimensions
+
 function setHeight() {
 	if(document.body.scrollHeight < window.innerHeight)
 	document.getElementById("body").style.height = window.innerHeight + 'px';
 }
-
 setHeight();
-window.addEventListener('resize', setHeight);
+
 
 // Borders when hovering on shopify link
 
@@ -41,14 +41,4 @@ document.getElementById("hoodie-link").addEventListener('mouseleave', function()
 	imageOverlay.style.setProperty("--rainbow-border-opacity", 0);
 	imageOverlay.style.setProperty("--gray-border-opacity", 1);
 });
-
-//document.getElementById("hoodie-img").addEventListener('mouseenter', function() {
-//	imageOverlay.style.setProperty("--border-opacity", 1);
-//	imageOverlay.style.setProperty("--overlay-opacity", .4);
-//});
-//
-//document.getElementById("hoodie-img").addEventListener('mouseleave', function() {
-//	imageOverlay.style.setProperty("--border-opacity", 0);
-//	imageOverlay.style.setProperty("--overlay-opacity", 0);
-//});
 
